@@ -48,9 +48,9 @@ public class F74021048_hw9 extends JFrame implements ActionListener {
 		}
 		
 		frame.setSize(790, 450);
-		frame.setTitle("©`¦ÌÎx­pºâ¾÷");
+		frame.setTitle("å¥ˆç±³å±Œè¨ˆç®—æ©Ÿ");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setResizable(false);  //¤£¯à½Õ¾ãµøµ¡¤j¤p
+		frame.setResizable(false);  //ä¸èƒ½èª¿æ•´è¦–çª—å¤§å°
 		frame.getContentPane().setBackground(Color.PINK);
 		frame.setIconImage(logo);
 		
@@ -186,7 +186,7 @@ public class F74021048_hw9 extends JFrame implements ActionListener {
 		negative.setFocusable(false);
 		frame.add(negative);
 		
-		sqrt = new JButton("¡Ô");
+		sqrt = new JButton("âˆš");
 		sqrt.setSize(75,50);
 		sqrt.addActionListener(frame);
 		sqrt.setActionCommand("sqrt");
@@ -531,7 +531,7 @@ public class F74021048_hw9 extends JFrame implements ActionListener {
 				}
 				break;
 			case "negative":
-				if(Double.valueOf(word)==0)  break;  //¤£¯à¬O¹s
+				if(Double.valueOf(word)==0)  break;  //ä¸èƒ½æ˜¯é›¶
 				if(word.substring(0, 1).equals("-")) word = word.substring(1);
 				else word = "-" + word;
 				break;
